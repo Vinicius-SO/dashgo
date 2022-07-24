@@ -19,7 +19,7 @@ export function Header() {
                 fontWeight="bold"
                 letterSpacing="tight"
                 w='64'
-                textAlign="center"
+                textAlign='center'
             >
                 dashgo
                 <Text as='span' ml="1" color="pink.500">.</Text>
