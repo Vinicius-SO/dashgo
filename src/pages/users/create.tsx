@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Icon, Table, Th, Thead, Tr, Checkbox, Td, Tbody, Text, Divider, SimpleGrid, VStack } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Icon, Table, Th, Thead, Tr, Checkbox, Td, Tbody, Text, Divider, SimpleGrid, VStack, HStack } from "@chakra-ui/react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 import { Input } from "../../components/Form/Input";
 import { Header } from "../../components/Header";
@@ -29,7 +29,12 @@ export default function CreateUSer(){
                         </SimpleGrid>
                     </VStack>
 
-                    <Flex></Flex>
+                    <Flex mt='8' justify="flex-end" >
+                        <HStack spacing='4'>
+                            <Button colorScheme="whiteAlpha">Cancelar</Button>
+                            <Button colorScheme="pink">Cancelar</Button>
+                        </HStack>
+                    </Flex>
                 </Box>
             </Flex>
 
